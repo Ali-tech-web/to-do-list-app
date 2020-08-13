@@ -1,0 +1,45 @@
+<!-- CODE EXPLAINED CHANNEL -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - To Do List</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+<body>
+    <div class="container">
+   
+        <div class="add-to-do">
+            <i class="fa fa-angle-down" id="downArrow"></i>
+            <input type="text" id="input"  placeholder="What needs to be done? " autofocus >
+        </div>
+
+        <div class="content">
+            <ul id="list">
+ 
+            </ul>  
+        </div>
+        <div class = "lowerMenu">
+                <li class="tabList">
+                    <span> <span id="itemsCount">0</span> items left </span>
+                    <div class="inlineDiv">
+                        <a id="showAllLink">  All </a>
+                        <a id="showActive"> Active </a>
+                        <a id="showCompletedLink"> Completed </a>
+                    </div>
+                    <a style="float:right" id="removeAllCompleted">
+                      Clear Completed
+                    </a>
+                </li>
+        </div>
+
+       
+     </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
